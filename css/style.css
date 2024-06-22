@@ -1,0 +1,520 @@
+/* Website template by freewebsitetemplates.com */
+/*------------------------- Layout styles ------------------------*/ 
+html{
+	background:url(../images/Pink\ Colorfull\ Creative\ Cupcake\ Illustration\ Phone\ Wallpaper.png) repeat-x;
+}
+body{
+	min-height: 100vh;
+	margin: 0;
+	background:url(../images/Pink\ Colorfull\ Creative\ Cupcake\ Illustration\ Phone\ Wallpaper.png) repeat-x left bottom;
+}
+p a{
+	text-decoration:underline;
+	color: #8B8B8B;
+}
+
+/*-------------------------	Header --------------------------*/
+.header{
+	width:auto;
+	margin:0 auto;
+}
+.header div{
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+}
+.header div a#logo{
+	display:block;
+	height:110px;
+	width:254px;
+	float:left;
+}
+.header div a#logo img{
+	border:0;
+}
+.header div div.navigation{
+	float:right;
+	overflow:hidden;
+	height:30px;
+	width:auto;
+	margin:0;
+}
+.header div div.navigation ul.first{
+	background:url(../images/bg-top-navigation-left.png) no-repeat;
+	height:30px;
+	padding:0 0 0 21px;
+}
+.header div div.navigation ul.first li{
+	background:url(../images/bg-top-navigation.png);
+}
+.header div div.navigation ul li.first a{
+	border:0;
+}
+.header div div.navigation ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	float:left;
+}
+.header div div.navigation ul li{
+	float:left;
+	background:url(../images/bg-top-navigation2.png);
+	height:30px;
+}
+.header div div.navigation ul li a:hover,.header div div.navigation ul.first li.selected a,
+.body .content div.blog div.paging ul li a:hover,.header div div.navigation ul li.selected a{
+	color:#ef0288;
+}
+.header div div.navigation ul li a{
+	text-decoration:none;
+	color:#721c49;
+	font-family:arial;
+	font-size:14px;
+	text-shadow: 0 1px 0 #fff;
+	border-width: 1px;
+	border-style: none none none solid;
+	border-color:#fff;
+	height:30px;
+	display:inline-block;
+	line-height:30px;
+	padding: 0 10px;
+}
+
+.header div#navigation{
+	height:40px;
+	background:url(../images/bg-navigation.gif) repeat-x;
+	width:auto;
+}
+.header div#navigation ul{
+	list-style:none;
+	margin:0 auto;
+	padding:0 20px;
+	width:920px;
+	overflow:hidden;
+}
+.header div#navigation ul li{
+	float:left;
+	width:131px;
+	text-align:center;
+}
+.header div#navigation ul li.selected a{
+	font-weight:bold;
+	color:#fff;
+	text-shadow:none;
+}
+.header div#navigation ul li.selected{
+	background:url(../images/bg-menu-selected.gif) no-repeat center top;
+	width:134px;
+}
+.header div#navigation ul li a{
+	font-family: arial;
+	color:#fcddf9;
+	text-shadow: 0 -1px 0 #920052;
+	font-size:14px;
+	text-decoration:none;
+	line-height:40px;
+	font-weight: normal;
+}
+.header div#navigation ul li a:hover{
+	color:#fff;
+	font-weight:bold;
+	text-shadow:none;
+}
+
+/*-------------------------	Body --------------------------*/
+.body{
+	margin:10px 10px 0px 6vw;
+	height:auto;
+	position:relative;
+}
+.body .featured{
+	overflow:hidden;
+}
+.body .featured a{
+	float:left;
+	margin:0 10px 0 0;
+	display:block;
+}
+.body div.article{
+	width:auto;
+	margin-right: 5vw;
+	padding: 5vh 10vw;
+	font-family:arial;
+	background:url(../images/bg-footer.png);
+	overflow:hidden;
+	height:1%;
+	clear:both;
+}
+.body div.article div.first{
+	width:525px;
+	margin:0 55px 0 0;
+	background:none;
+	padding:0;
+}
+.body div.article div.first p a{
+	text-decoration:underline;
+	color:#f6008a;
+	background:none;
+	padding:0;
+	margin:0;
+	display:inline-block;
+}
+
+.body div.article div.first h3{
+	color:#f6008a;
+}
+.body div.article div h3{
+	color:#2a1500;
+	font-size:20px;
+	font-weight:normal;
+	margin:0;
+}
+.body div.article div p{
+	margin: 20px 0;
+	font-size:15px;
+	color:#918889;
+	line-height:20px;
+}
+.body div.article div h4{
+	color:#2f1307;
+	font-size:20px;
+	font-weight:normal;
+	margin:0;
+}
+.body div.article div a{
+	color:#f6008a;
+	text-decoration:none;
+	padding:0 0 0 20px;
+	font-size: 15px;
+	margin:0 0 0 20px;
+	display:block;
+}
+.body div.article{
+	width:auto;
+	padding:15px;
+	font-family:arial;
+	background:url(../images/bg-footer.png);
+	overflow:hidden;
+	height:1%;
+	clear:both;
+}
+.body div.article div.first{
+	width:525px;
+	margin:0 55px 0 0;
+	background:none;
+	padding:0;
+}
+.body div.article div.first p a{
+	text-decoration:underline;
+	color:#f6008a;
+	background:none;
+	padding:0;
+	margin:0;
+	display:inline-block;
+}
+.body div.article div{
+	float:left;
+	width:325px;
+	background:url(../images/separator-dotted.gif) no-repeat center bottom;
+	padding: 0 0 21px 0;
+}
+.body div.article div.first h3{
+	color:#f6008a;
+}
+.body div.article div h3{
+	color:#2a1500;
+	font-size:20px;
+	font-weight:normal;
+	margin:0;
+}
+.body div.article div p{
+	margin: 20px 0;
+	font-size:15px;
+	color:#918889;
+	line-height:20px;
+}
+.body div.article div h4{
+	color:#2f1307;
+	font-size:20px;
+	font-weight:normal;
+	margin:0;
+}
+.body div.article div a{
+	background:url(../images/icons.gif) no-repeat left 3px;
+	color:#f6008a;
+	text-decoration:none;
+	padding:0 0 0 20px;
+	font-size:15px;
+	margin:0 0 0 20px;
+	display:block;
+}
+.body .content{
+	float:left;
+}
+.body .content .figure{
+	height:260px;
+	margin:0 0 20px 0;
+}
+.body .content .products{
+	margin:0 0 24px;
+	background:url(../images/bg-content.png);
+}
+
+.body .content .products ul{
+	width: 70vw;
+	margin:22px 0 0;
+	padding:0;
+	list-style:none;
+	overflow:hidden;
+}
+.body .content .products ul li{
+	width:170px;
+	float:left;
+	margin:0 0 0 34px;
+	text-align: center;
+}
+.body .content .products ul li img{
+	border:0;
+	float: center;
+}
+.body .content .products ul li a img:hover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+.body .content .products ul li h4{
+	margin:5px 0 0;
+	text-transform:uppercase;
+	color:#f6008a;
+	font-family:arial;
+	font-size:14px;
+	font-weight:normal;
+}
+.body .content .products ul li p{
+	margin:0;
+	color:#b2a7ab;
+	font-family:arial;
+	font-size:13px;
+}
+body .sidebar {
+	background-image: linear-gradient(to bottom, #ffcccb, #ff99cc, #ff66cc, #ff33cc, #ff33cc,#ff66cc, #ff99cc, #ffcccb);
+	margin-left: 6vw;
+	width: 10vw;
+}
+.sidebar {
+	float: left;
+	background-image: linear-gradient(to bottom, #ffcccb, #ff99cc, #ff66cc, #ff33cc, #ff33cc,#ff66cc, #ff99cc, #ffcccb);
+	width: 10vw;
+}
+.body .content div.about{
+	width:730px;
+	background:url(../images/bg-content.png);
+	padding:20px 30px 50px;
+}
+.body .content div.about h2,.body .content div.news h2{
+	margin:0 0 20px;
+	font-family:arial;
+	font-size:30px;
+	color:#F6008A;
+	font-weight:normal;
+}
+.body .content div.about p{
+	margin:0 0 40px;
+	line-height:24px;
+	font-family:arial;
+	color:#89776B;
+	font-size: 15px;
+}
+.body .content div.news p{
+	margin:0 0 20px;
+	line-height:24px;
+	font-family:arial;
+	color:#89776B;
+	font-size:13px;
+}
+.body .content div.about p a,.body .content div.news p a{
+	color:#f6008a;
+}
+/*-------------------------	Footer --------------------------*/
+.footer{
+	padding:37px 0 10px;
+}
+.footer p{
+	font-family:arial;
+	font-size:14px;
+	color: #ff33cc;
+	text-align:center;
+}
+
+@media (max-width: 1100px) {
+	html {
+		overflow-x: hidden;
+		background:url(../images/Pink\ Colorfull\ Creative\ Cupcake\ Illustration\ Phone\ Wallpaper.png) repeat-y;
+	}
+	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		overflow-x: hidden;
+		background:url(../images/Pink\ Colorfull\ Creative\ Cupcake\ Illustration\ Phone\ Wallpaper.png) repeat-y;
+	}
+	.content .products {
+		width: 90vw;
+	}
+	
+	.body .content .products ul{
+		width: 90vw;
+		margin:22px 0 0;
+		padding:0;
+		list-style:none;
+		overflow:hidden;
+	}
+	.header div#navigation ul {
+		list-style:none;
+		float: left;
+		padding:0;
+		width:1000px;
+		overflow:hidden;
+	}
+	.header div#navigation ul li{
+		float:left;
+		width:100px;
+		text-align:center;
+	}
+	.header div#navigation ul li{
+		list-style:none;
+		float: left;
+	}
+	
+	.content .products ul img {
+		width: 100%;
+	}
+
+	.sidebar {
+		display: none;
+	}
+	.content {
+		width: 100vw;
+	}
+	.body .content div.about{
+		width: 90.5vw;
+		background:url(../images/bg-content.png);
+		padding:20px 30px 50px;
+	}
+	.article {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.body div.article{
+		width:auto;
+		margin-right: 2vw;
+		padding: 5vh 5vw;
+	}
+	.body div.article div{
+		width:260px;
+		background:url(../images/separator-dotted.gif) no-repeat center bottom;
+		padding: 0;
+	}
+	.cover {
+		background-image: url(/images/Pink\ Modern\ Creative\ Cake\ Promotion\ Poster\ -\ Small.png);
+		display: flex;
+		width: 79vw;
+	}
+
+	.body div.article div h3{
+		width: 80vw;
+		color:#2a1500;
+		font-size:20px;
+		font-weight:normal;
+		margin:0;
+		text-align: center;
+	}
+	.article div p{
+		float: none;
+		text-align: center;
+		width: 80vw;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 500px) {
+	html {
+		overflow-x: hidden;
+		background:url(../images/Pink\ Colorfull\ Creative\ Cupcake\ Illustration\ Phone\ Wallpaper.png) repeat-y;
+	}
+	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		overflow-x: hidden;
+		background:url(../images/Pink\ Colorfull\ Creative\ Cupcake\ Illustration\ Phone\ Wallpaper.png) repeat-y;
+	}
+	.content .products {
+		width: 90vw;
+	}
+	.header div#navigation ul {
+		list-style:none;
+		float: left;
+		padding:0;
+		width:1000px;
+		overflow:hidden;
+	}
+	.header div#navigation ul li{
+		float:left;
+		width:100px;
+		text-align:center;
+	}
+	.header div#navigation ul li{
+		list-style:none;
+		float: left;
+	}
+	
+	.content .products ul img {
+		width: 100%;
+	}
+
+	.sidebar {
+		display: none;
+	}
+	.content {
+		width: 100vw;
+	}
+	.content .products ul {
+		display: flex;
+		width: 90%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.body .content div.about{
+		width: 90.5vw;
+		background:url(../images/bg-content.png);
+		padding:20px 30px 50px;
+	}
+	.article {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.body div.article{
+		width:auto;
+		margin-right: 2vw;
+		padding: 5vh 5vw;
+	}
+	.body div.article div{
+		width:260px;
+		background:url(../images/separator-dotted.gif) no-repeat center bottom;
+		padding: 0;
+	}
+	.cover {
+		background-image: url(/images/Pink\ Modern\ Creative\ Cake\ Promotion\ Poster\ -\ Small.png);
+		display: flex;
+		width: 79vw;
+	}
+	.article div p{
+		float: none;
+		text-align: center;
+		width: 80vw;
+		margin: 0 auto;
+	}
+}
