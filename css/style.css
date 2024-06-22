@@ -6,7 +6,7 @@ html{
 body{
 	min-height: 100vh;
 	margin: 0;
-	background:url(../images/Pink\ Colorfull\ Creative\ Cupcake\ Illustration\ Phone\ Wallpaper.png) repeat-x left bottom;
+	background:url(../images/Pink\ Colorfull\ Creative\ Cupcake\ Illustration\ Phone\ Wallpaper.png) repeat-x bottom;
 }
 p a{
 	text-decoration:underline;
@@ -345,7 +345,12 @@ body .sidebar {
 	color: #ff33cc;
 	text-align:center;
 }
-
+@media (min-width:2000px) {
+	html {
+		background-size: cover;
+		font-size: 3 rem;
+	}
+}
 @media (max-width: 1100px) {
 	html {
 		overflow-x: hidden;
