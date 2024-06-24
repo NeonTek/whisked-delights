@@ -28,10 +28,8 @@ p a{
 	display:block;
 	height:110px;
 	width:254px;
-	margin: 0 auto;
 	background: #ffcccb;
 	border-radius: 50%;
-
 }
 .header div a#logo img{
 	border:0;
