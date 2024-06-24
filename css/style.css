@@ -352,10 +352,13 @@ body .sidebar {
 		font-size: 3 rem;
 	}
 }
-@media (max-width: 1100px) {
+@media (max-width: 1100px) and (min-width: 500px) {
 	html {
 		overflow-x: hidden;
 		background:url(../images/Pink\ Colorfull\ Creative\ Cupcake\ Illustration\ Phone\ Wallpaper.png) repeat-y;
+	}
+	.cover {
+		margin: 0 10vw;
 	}
 	body {
 		display: flex;
