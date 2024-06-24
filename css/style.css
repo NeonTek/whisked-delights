@@ -305,6 +305,7 @@ body .sidebar {
 	float: left;
 	background-image: linear-gradient(to bottom, #ffcccb, #ff99cc, #ff66cc, #ff33cc, #ff33cc,#ff66cc, #ff99cc, #ffcccb);
 	width: 10vw;
+	opacity: 70%;
 }
 .body .content div.about{
 	width:730px;
@@ -514,6 +515,7 @@ body .sidebar {
 	.cover {
 		background-image: url(/images/Pink\ Modern\ Creative\ Cake\ Promotion\ Poster\ -\ Small.png);
 		display: flex;
+		margin: 0 10vw;
 		width: 79vw;
 	}
 	.article div p{
