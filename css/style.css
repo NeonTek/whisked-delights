@@ -28,10 +28,14 @@ p a{
 	display:block;
 	height:110px;
 	width:254px;
-	float:left;
+	margin: 0 auto;
+	background: #ffcccb;
+	border-radius: 50%;
+
 }
 .header div a#logo img{
 	border:0;
+	margin-left: 15%;
 }
 .header div div.navigation{
 	float:right;
